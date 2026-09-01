@@ -1,3 +1,6 @@
+
+```text
+
 # 🤖 AI-Powered Email Assistant
 
 A full-stack AI-powered application that generates contextual email replies using **Spring Boot, React, and Google Gemini API**.
@@ -23,7 +26,6 @@ The user provides an email, selects the desired tone and response length, and th
 
 🏗️ Architecture
 
-```text
 React Frontend
       ↓
 Spring Boot REST API
