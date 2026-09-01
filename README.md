@@ -4,7 +4,7 @@ A full-stack AI-powered application that generates contextual email replies usin
 
 The user provides an email, selects the desired tone and response length, and the application uses AI to generate an appropriate reply.
 
-## ✨ Features
+✨ Features
 
 - 🤖 AI-generated email replies
 - 🎯 Context-aware responses
@@ -19,7 +19,9 @@ The user provides an email, selects the desired tone and response length, and th
 - 🔌 Spring Boot REST API
 - 🔐 API key secured using environment variables
 
-## 🏗️ Architecture
+
+
+🏗️ Architecture
 
 ```text
 React Frontend
@@ -35,6 +37,10 @@ Google Gemini API
 AI Generated Response
       ↓
 React Frontend
+
+
+
+
 
 🛠️ Tech Stack
 Backend
@@ -53,6 +59,9 @@ Vite
 AI
 Google Gemini API
 Prompt Engineering
+
+
+
 🔄 How It Works
 User enters the email they received.
 User selects the desired tone and response length.
@@ -63,6 +72,10 @@ Gemini generates the email reply.
 Spring Boot extracts the generated response.
 The response is returned to React.
 React displays the generated reply.
+
+
+
+
 🔌 API
 Generate Email Reply
 
@@ -74,6 +87,9 @@ Request
   "emailcontent": "Could you please confirm if you are available for a meeting tomorrow at 3 PM?",
   "tone": "friendly"
 }
+
+
+
 📂 Project Structure
 ai-email-assistant/
 │
@@ -98,6 +114,9 @@ ai-email-assistant/
 ├── .gitignore
 ├── mvnw
 └── mvnw.cmd
+
+
+
 ⚙️ Setup & Run
 Prerequisites
 Java 21+
@@ -105,9 +124,13 @@ Maven
 Node.js
 npm
 Google Gemini API key
+
+
 1. Clone the repository
 git clone https://github.com/Himanshu2334/ai-email-assistant.git
 cd ai-email-assistant
+
+
 2. Configure Gemini API Key
 
 Set the following environment variable on your system:
@@ -126,9 +149,9 @@ From the project root:
 
 mvn spring-boot:run
 
-Backend:
+Backend: http://localhost:8080
 
-http://localhost:8080
+
 4. Start Frontend
 
 Open another terminal:
@@ -137,13 +160,14 @@ cd email-writer-frontend
 npm install
 npm run dev
 
-Frontend:
+Frontend: http://localhost:5173
 
-http://localhost:5173
-📸 Screenshots
-AI Email Assistant
 
-Add screenshots of the application here.
+## 📸 Screenshots
+
+### AI Email Assistant
+
+![AI Email Assistant](screenshots/email-assistant.png)
 
 🚀 Future Improvements
 Spring Security + JWT authentication
